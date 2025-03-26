@@ -145,12 +145,9 @@ This project uses a `.env` file to configure all services. Below is a guide to t
 
 ---
 
-### Mail Configuration
+## Mail Configuration
 
-- **`ORO_MAILER_DSN`**: Full SMTP connection string  
-- **`ORO_MAILER_TRANSPORT` / `HOST` / `PORT`**: Transport type and Mailpit configuration  
-- **`ORO_MAILER_ENCRYPTION`**: Use `null` (dev), `tls`, or `ssl`  
-- **`ORO_MAILER_USER` / `ORO_MAILER_PASSWORD`**: SMTP auth credentials  
+Configurar host como mail y el puerto 1025 sin ninguna autentificacion
 
 ---
 
